@@ -31,7 +31,7 @@ pip install llama-index google-generativeai sentence-transformers pymupdf pandas
 jupyter notebook
 
 Open the notebook, select the venv kernel, and run the cells top to bottom.
-
+```
 What I Learned
 
 - Designing a RAG pipeline instead of just calling an LLM - separated the pipeline into ingestion, indexing, retrieval, reranking, and generation, and saw how each layer affects answer quality.
